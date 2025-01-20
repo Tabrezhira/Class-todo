@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "3f2161db-1b18-4f46-9b8f-1845facc2c39",
+		"name": "class",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39789384"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/users/signup",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"TabrezHira\",\n    \"email\":\"Tabrez.hira@gmail.com\",\n    \"password\":\"Hamza.447\",\n    \"mobileno\":\"9825533053\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/signup Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"Tabrez.hira@gmail.com\",\n    \"password\":\"Tabrez.447\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/signup Copy 2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"Tabrez.hira@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/reset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"reset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/signup Copy 3",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password\":\"Tabrez.447\",\n    \"otp\":\"9199\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/newpassword/6788e2fb13c01893a1471ccb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"newpassword",
+						"6788e2fb13c01893a1471ccb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/todo/createtodo/6788e2fb13c01893a1471ccb",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"title2\",\n    \"description\": \"description2\",\n    \"priority\": \"High\",\n    \"status\": \"in-progress\",\n    \"repeated\": \"Daily\",\n    \"repeatedStartdate\": \"2025-01-16T00:00:00.000Z\",\n    \"repeatedEnddate\": \"2025-01-25T00:00:00.000Z\",\n    \"createdAT\": \"2025-01-16T11:19:51.186Z\",\n    \"updatedAT\": \"2025-01-16T11:19:51.186Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo/createtodo/6788e2fb13c01893a1471ccb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo",
+						"createtodo",
+						"6788e2fb13c01893a1471ccb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/todo/createtodo/6788e2fb13c01893a1471ccb Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"title2\",\n    \"description\": \"description2\",\n    \"priority\": \"High\",\n    \"status\": \"in-progress\",\n    \"repeated\": \"Daily\",\n    \"repeatedStartdate\": \"2025-01-16T00:00:00.000Z\",\n    \"repeatedEnddate\": \"2025-01-25T00:00:00.000Z\",\n    \"createdAT\": \"2025-01-16T11:19:51.186Z\",\n    \"updatedAT\": \"2025-01-16T11:19:51.186Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo/createtodo/6788e2fb13c01893a1471ccb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo",
+						"createtodo",
+						"6788e2fb13c01893a1471ccb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/todo/createtodo/6788e2fb13c01893a1471ccb Copy 2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"title2\",\n    \"description\": \"description2\",\n    \"priority\": \"High\",\n    \"status\": \"in-progress\",\n    \"repeated\": \"Daily\",\n    \"repeatedStartdate\": \"2025-01-16T00:00:00.000Z\",\n    \"repeatedEnddate\": \"2025-01-25T00:00:00.000Z\",\n    \"createdAT\": \"2025-01-16T11:19:51.186Z\",\n    \"updatedAT\": \"2025-01-16T11:19:51.186Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo/delete/6788eb57731a492714a7c76c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo",
+						"delete",
+						"6788eb57731a492714a7c76c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/todo/createtodo/6788e2fb13c01893a1471ccb Copy 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"title2\",\n    \"description\": \"description2\",\n    \"priority\": \"High\",\n    \"status\": \"in-progress\",\n    \"repeated\": \"Daily\",\n    \"repeatedStartdate\": \"2025-01-16T00:00:00.000Z\",\n    \"repeatedEnddate\": \"2025-01-25T00:00:00.000Z\",\n    \"createdAT\": \"2025-01-16T11:19:51.186Z\",\n    \"updatedAT\": \"2025-01-16T11:19:51.186Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo/todolist/6788e2fb13c01893a1471ccb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo",
+						"todolist",
+						"6788e2fb13c01893a1471ccb"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
